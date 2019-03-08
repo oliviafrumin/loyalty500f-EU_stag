@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LoginPage	spec/features/pages/loyalty_login_page.rb	/^module LoginPage$/;"	m
+login	spec/features/pages/loyalty_login_page.rb	/^  def login(username, password)$/;"	f	class:LoginPage
+AdminPage	spec/features/pages/loyalty_admin_page.rb	/^module AdminPage$/;"	m
+find_account	spec/features/pages/loyalty_admin_page.rb	/^  def find_account(account_name)$/;"	f	class:AdminPage
+MembersPage	spec/features/pages/loyalty_members_page.rb	/^module MembersPage$/;"	m
+add_new_member	spec/features/pages/loyalty_members_page.rb	/^  def add_new_member(member)$/;"	f	class:MembersPage
+find_member	spec/features/pages/loyalty_members_page.rb	/^  def find_member(member)$/;"	f	class:MembersPage
+update_date_selection	spec/features/pages/loyalty_members_page.rb	/^  def update_date_selection$/;"	f	class:MembersPage
+edit_member_profile	spec/features/pages/loyalty_members_page.rb	/^  def edit_member_profile$/;"	f	class:MembersPage
+open_manage_events	spec/features/pages/loyalty_members_page.rb	/^  def open_manage_events$/;"	f	class:MembersPage
+pause_member	spec/features/pages/loyalty_members_page.rb	/^  def pause_member$/;"	f	class:MembersPage
+manage_events	spec/features/pages/loyalty_members_page.rb	/^  def manage_events$/;"	f	class:MembersPage
+record_purchase_event	spec/features/pages/loyalty_members_page.rb	/^  def record_purchase_event$/;"	f	class:MembersPage
+record_generic_event	spec/features/pages/loyalty_members_page.rb	/^  def record_generic_event(event_type)$/;"	f	class:MembersPage
+record_custom_purchase_event	spec/features/pages/loyalty_members_page.rb	/^  def record_custom_purchase_event(custom_purchase)$/;"	f	class:MembersPage
+reject_event	spec/features/pages/loyalty_members_page.rb	/^  def reject_event$/;"	f	class:MembersPage
+verify_badges_section	spec/features/pages/loyalty_members_page.rb	/^  def verify_badges_section$/;"	f	class:MembersPage
+verify_has_badge_world	spec/features/pages/loyalty_members_page.rb	/^  def verify_has_badge_world$/;"	f	class:MembersPage
+link_offer	spec/features/pages/loyalty_members_page.rb	/^  def link_offer(offer)$/;"	f	class:MembersPage
+unlink_offer	spec/features/pages/loyalty_members_page.rb	/^  def unlink_offer(offer)$/;"	f	class:MembersPage
+verify_offer_is_linked	spec/features/pages/loyalty_members_page.rb	/^  def verify_offer_is_linked$/;"	f	class:MembersPage
+verify_offer_is_not_linked	spec/features/pages/loyalty_members_page.rb	/^  def verify_offer_is_not_linked$/;"	f	class:MembersPage
+SegmentsPage	spec/features/pages/account/loyalty_account_segments_page.rb	/^module SegmentsPage$/;"	m
+add_segment	spec/features/pages/account/loyalty_account_segments_page.rb	/^  def add_segment(name)$/;"	f	class:SegmentsPage
+update_segment	spec/features/pages/account/loyalty_account_segments_page.rb	/^  def update_segment(name)$/;"	f	class:SegmentsPage
+delete_segment	spec/features/pages/account/loyalty_account_segments_page.rb	/^  def delete_segment(name)$/;"	f	class:SegmentsPage
+RewardsPage	spec/features/pages/account/loyalty_account_rewards_page.rb	/^module RewardsPage$/;"	m
+add_reward	spec/features/pages/account/loyalty_account_rewards_page.rb	/^  def add_reward(name)$/;"	f	class:RewardsPage
+modify_reward	spec/features/pages/account/loyalty_account_rewards_page.rb	/^  def modify_reward(name)$/;"	f	class:RewardsPage
+delete_reward	spec/features/pages/account/loyalty_account_rewards_page.rb	/^  def delete_reward(name)$/;"	f	class:RewardsPage
+OffersPage	spec/features/pages/account/loyalty_account_offers_page.rb	/^module OffersPage$/;"	m
+add_deal	spec/features/pages/account/loyalty_account_offers_page.rb	/^  def add_deal(name)$/;"	f	class:OffersPage
+update_deal	spec/features/pages/account/loyalty_account_offers_page.rb	/^  def update_deal(name)$/;"	f	class:OffersPage
+delete_deal	spec/features/pages/account/loyalty_account_offers_page.rb	/^  def delete_deal(name)$/;"	f	class:OffersPage
+add_promotion	spec/features/pages/account/loyalty_account_offers_page.rb	/^  def add_promotion(name)$/;"	f	class:OffersPage
+update_promotion	spec/features/pages/account/loyalty_account_offers_page.rb	/^  def update_promotion(name)$/;"	f	class:OffersPage
+archive_promotion	spec/features/pages/account/loyalty_account_offers_page.rb	/^  def archive_promotion(name)$/;"	f	class:OffersPage
+PointsPage	spec/features/pages/account/loyalty_account_points_page.rb	/^module PointsPage$/;"	m
+add_points_rule	spec/features/pages/account/loyalty_account_points_page.rb	/^  def add_points_rule(name)$/;"	f	class:PointsPage
+modify_points_rule	spec/features/pages/account/loyalty_account_points_page.rb	/^  def modify_points_rule(name)$/;"	f	class:PointsPage
+delete_points_rule	spec/features/pages/account/loyalty_account_points_page.rb	/^  def delete_points_rule(name)$/;"	f	class:PointsPage
+BadgesPage	spec/features/pages/account/loyalty_account_badges_page.rb	/^module BadgesPage$/;"	m
+add_badge_series	spec/features/pages/account/loyalty_account_badges_page.rb	/^  def add_badge_series(name)$/;"	f	class:BadgesPage
+modify_badge_series	spec/features/pages/account/loyalty_account_badges_page.rb	/^  def modify_badge_series(name)$/;"	f	class:BadgesPage
+delete_badge_series	spec/features/pages/account/loyalty_account_badges_page.rb	/^  def delete_badge_series(name)$/;"	f	class:BadgesPage
+add_badge	spec/features/pages/account/loyalty_account_badges_page.rb	/^  def add_badge(badge_series_name, badge_name)$/;"	f	class:BadgesPage
+modify_badge	spec/features/pages/account/loyalty_account_badges_page.rb	/^  def modify_badge(badge_series_name, badge_name)$/;"	f	class:BadgesPage
+delete_badge	spec/features/pages/account/loyalty_account_badges_page.rb	/^  def delete_badge(badge_series_name, badge_name)$/;"	f	class:BadgesPage
+TiersPage	spec/features/pages/account/loyalty_account_tiers_page.rb	/^module TiersPage$/;"	m
+add_tier	spec/features/pages/account/loyalty_account_tiers_page.rb	/^  def add_tier(name)$/;"	f	class:TiersPage
+modify_tier	spec/features/pages/account/loyalty_account_tiers_page.rb	/^  def modify_tier(name)$/;"	f	class:TiersPage
+delete_tier	spec/features/pages/account/loyalty_account_tiers_page.rb	/^  def delete_tier(name)$/;"	f	class:TiersPage
+LandingPage	spec/features/pages/loyalty_landing_page.rb	/^module LandingPage$/;"	m
+logout	spec/features/pages/loyalty_landing_page.rb	/^  def logout(username)$/;"	f	class:LandingPage
+navigate_dashboard	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_dashboard$/;"	f	class:LandingPage
+navigate_members	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_members$/;"	f	class:LandingPage
+navigate_account	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account$/;"	f	class:LandingPage
+navigate_users	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_users$/;"	f	class:LandingPage
+navigate_help	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_help$/;"	f	class:LandingPage
+navigate_admin	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_admin$/;"	f	class:LandingPage
+navigate_account_profile	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_profile$/;"	f	class:LandingPage
+navigate_account_points	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_points$/;"	f	class:LandingPage
+navigate_account_rewards	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_rewards$/;"	f	class:LandingPage
+navigate_account_tiers	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_tiers$/;"	f	class:LandingPage
+navigate_account_badges	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_badges$/;"	f	class:LandingPage
+navigate_account_emails	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_emails$/;"	f	class:LandingPage
+navigate_account_offers	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_offers$/;"	f	class:LandingPage
+navigate_account_segments	spec/features/pages/loyalty_landing_page.rb	/^  def navigate_account_segments$/;"	f	class:LandingPage
+Navigation	lib/helpers/navigation.rb	/^module Navigation$/;"	m
+pause_for	lib/helpers/navigation.rb	/^  def pause_for(seconds)$/;"	f	class:Navigation
+browser_back	lib/helpers/navigation.rb	/^  def browser_back$/;"	f	class:Navigation
+browser_forward	lib/helpers/navigation.rb	/^  def browser_forward$/;"	f	class:Navigation
+browser_refresh	lib/helpers/navigation.rb	/^  def browser_refresh$/;"	f	class:Navigation
+click_by_alt	lib/helpers/navigation.rb	/^  def click_by_alt(alt)$/;"	f	class:Navigation
+click_similar_link_by_index_partial	lib/helpers/navigation.rb	/^  def click_similar_link_by_index_partial(linkName, index)$/;"	f	class:Navigation
+click_similar_link_by_index	lib/helpers/navigation.rb	/^  def click_similar_link_by_index(linkName, index)$/;"	f	class:Navigation
+click_similar_link_by_last	lib/helpers/navigation.rb	/^  def click_similar_link_by_last(linkName)$/;"	f	class:Navigation
+click_similar_button_by_last	lib/helpers/navigation.rb	/^  def click_similar_button_by_last(buttonId)$/;"	f	class:Navigation
+click_similar_button_by_index	lib/helpers/navigation.rb	/^  def click_similar_button_by_index(buttonId, index)$/;"	f	class:Navigation
+select_from_dropdown	lib/helpers/navigation.rb	/^  def select_from_dropdown(option, class_name_id)$/;"	f	class:Navigation
+click_input_by_value	lib/helpers/navigation.rb	/^  def click_input_by_value(value)$/;"	f	class:Navigation
+click_on_plain_text	lib/helpers/navigation.rb	/^  def click_on_plain_text(by_tag, text)$/;"	f	class:Navigation
+click_on_plain_text_first	lib/helpers/navigation.rb	/^  def click_on_plain_text_first(by_tag, text)$/;"	f	class:Navigation
+click_on_plain_text_by_index	lib/helpers/navigation.rb	/^  def click_on_plain_text_by_index(by_tag, text, index)$/;"	f	class:Navigation
+click_on_element_via_free_jquery	lib/helpers/navigation.rb	/^  def click_on_element_via_free_jquery(locator)$/;"	f	class:Navigation
+checked_by_name?	lib/helpers/navigation.rb	/^  def checked_by_name?(name)$/;"	f	class:Navigation
+checked_by_value?	lib/helpers/navigation.rb	/^  def checked_by_value?(value)$/;"	f	class:Navigation
+fill_form_js_by_id	lib/helpers/navigation.rb	/^  def fill_form_js_by_id(id, value)$/;"	f	class:Navigation
+wait_element_run_command	lib/helpers/navigation.rb	/^  def wait_element_run_command(web_element, command_code, seconds)$/;"	f	class:Navigation
+wait_element	lib/helpers/navigation.rb	/^  def wait_element(web_element, seconds)$/;"	f	class:Navigation
+wait_for_css_selector	lib/helpers/navigation.rb	/^  def wait_for_css_selector(selector, seconds)$/;"	f	class:Navigation
+wait_for	lib/helpers/navigation.rb	/^  def wait_for(kind, locator, seconds)$/;"	f	class:Navigation
+wait_for_no	lib/helpers/navigation.rb	/^  def wait_for_no(kind, locator, seconds)$/;"	f	class:Navigation
+wait_for_content	lib/helpers/navigation.rb	/^  def wait_for_content(content, seconds)$/;"	f	class:Navigation
+drag_drop	lib/helpers/navigation.rb	/^  def drag_drop(draggable, x_offset, y_offset)$/;"	f	class:Navigation
+click_first_element	lib/helpers/navigation.rb	/^  def click_first_element(element)$/;"	f	class:Navigation
+scroll_bottom_page	lib/helpers/navigation.rb	/^  def scroll_bottom_page$/;"	f	class:Navigation
+close_and_switch_window	lib/helpers/navigation.rb	/^  def close_and_switch_window$/;"	f	class:Navigation
+close_and_switch_tab	lib/helpers/navigation.rb	/^  def close_and_switch_tab$/;"	f	class:Navigation
+check_all_elements_in_array	lib/helpers/navigation.rb	/^  def check_all_elements_in_array(array)$/;"	f	class:Navigation
+uncheck_all_elements_in_array	lib/helpers/navigation.rb	/^  def uncheck_all_elements_in_array(array)$/;"	f	class:Navigation
+select_from_custom_dropdown	lib/helpers/navigation.rb	/^def select_from_custom_dropdown(id, item)$/;"	f
+select_from_custom_dropdown_without_search	lib/helpers/navigation.rb	/^def select_from_custom_dropdown_without_search(id, item)$/;"	f
+switch_to_window	lib/helpers/navigation.rb	/^def switch_to_window(handle)$/;"	f
+windows	lib/helpers/navigation.rb	/^def windows$/;"	f
+point_to_first_window	lib/helpers/navigation.rb	/^def point_to_first_window$/;"	f
+point_to_last_window	lib/helpers/navigation.rb	/^def point_to_last_window$/;"	f
+scroll_to_bottom	lib/helpers/navigation.rb	/^def scroll_to_bottom$/;"	f
+switch_to_iframe	lib/helpers/navigation.rb	/^def switch_to_iframe(id)$/;"	f
+in_browser	lib/helpers/navigation.rb	/^def in_browser(name, opts={})$/;"	f
+in_csa_portal	lib/helpers/navigation.rb	/^def in_csa_portal(opts={})#(username, password) <- implement it if needed$/;"	f
+in_provider_portal	lib/helpers/navigation.rb	/^def in_provider_portal(username, password, opts={})$/;"	f
+in_patient_portal	lib/helpers/navigation.rb	/^def in_patient_portal(username, password, opts={})$/;"	f
+get_host_from_driver	lib/helpers/navigation.rb	/^def get_host_from_driver(name)$/;"	f
+reset_capybara_sessions	lib/helpers/navigation.rb	/^def reset_capybara_sessions$/;"	f
+refresh_browser	lib/helpers/navigation.rb	/^def refresh_browser$/;"	f
+get_row_having_text	lib/helpers/navigation.rb	/^def get_row_having_text(text='', css_selector='.table-bordered.table')$/;"	f
+get_row_having_text_at_specific_column	lib/helpers/navigation.rb	/^def get_row_having_text_at_specific_column(text='', column_id=-1, css_selector='.table-bordered.table')$/;"	f
+get_first_row	lib/helpers/navigation.rb	/^def get_first_row(css_selector='.table-bordered.table')$/;"	f
+js_click	lib/helpers/navigation.rb	/^def js_click(elem)$/;"	f
+js_set_attribute	lib/helpers/navigation.rb	/^def js_set_attribute(elem, attr, value)$/;"	f
+CustomUtils	lib/helpers/custom_utils.rb	/^module CustomUtils$/;"	m
+convert_to_loyalty_name_convention	lib/helpers/custom_utils.rb	/^  def convert_to_loyalty_name_convention(name)$/;"	f	class:CustomUtils
+VerificationHelpers	lib/helpers/verification_helper.rb	/^module VerificationHelpers$/;"	m
+verify_content	lib/helpers/verification_helper.rb	/^  def verify_content(expected_content)$/;"	f	class:VerificationHelpers
+verify_no_content	lib/helpers/verification_helper.rb	/^  def verify_no_content(expected_content)$/;"	f	class:VerificationHelpers
+verify_content_by_xpath	lib/helpers/verification_helper.rb	/^  def verify_content_by_xpath(expected_xpath)$/;"	f	class:VerificationHelpers
+verify_no_content_by_xpath	lib/helpers/verification_helper.rb	/^  def verify_no_content_by_xpath(expected_xpath)$/;"	f	class:VerificationHelpers
