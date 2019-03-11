@@ -47,29 +47,29 @@ feature 'Offers Module' do
     sleep 1
   end
 
-  # it 'should add a new promotion' do
-  #   add_promotion @promotion_name
-  #   within '.flash_notice' do
-  #     verify_content 'Points promotion was successfully created.'
-  #   end
-  #   sleep 1
-  # end
-  #
-  # it 'should update a promotion' do
-  #   update_promotion @promotion_name
-  #   within '.flash_notice' do
-  #     verify_content 'Points promotion was successfully updated.'
-  #   end
-  #   sleep 1
-  # end
-  #
-  # it 'should archive a promotion' do
-  #   archive_promotion @promotion_name
-  #   within '.flash_notice' do
-  #     verify_content 'The point promotion has been archived.'
-  #   end
-  #   sleep 1
-  # end
+  it 'should add a new promotion' do
+    add_promotion @promotion_name
+    within '.flash_notice' do
+      verify_content 'Points promotion was successfully created.'
+    end
+    sleep 1
+  end
+
+  it 'should update a promotion' do
+    update_promotion @promotion_name
+    within '.flash_notice' do
+      verify_content 'Points promotion was successfully updated.'
+    end
+    sleep 1
+  end
+
+  it 'should archive a promotion' do
+    archive_promotion @promotion_name
+    within '.flash_notice' do
+      verify_content 'The point promotion has been archived.'
+    end
+    sleep 1
+  end
 
   after(:each) do
     logout(@username)
