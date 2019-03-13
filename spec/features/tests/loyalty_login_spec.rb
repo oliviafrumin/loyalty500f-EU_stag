@@ -8,9 +8,9 @@ feature 'Login Module' do
 
   before(:each) do
     visit '/'
-    @account = '10030'
+    @account = '1022'
     @username = 'ofrumin@merkleinc.com'
-    @password = 'Ifo10044'
+    @password = 'Ifoo10044'
   end
   # binding.pry
 
