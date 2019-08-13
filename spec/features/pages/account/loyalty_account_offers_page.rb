@@ -56,21 +56,21 @@ module OffersPage
     find(:xpath, "//input[@id='point_promotion_datetime_start_date_time']", wait: 2).click
 
 
-    availability = verify_content 'Time of day'
+    # availability = verify_content 'Time of day'
 
-    if (availability==true)
-      print availability
-      sleep 2
-      find(:css, 'div.wickedpicker > ul > li:nth-child(1) > span.wickedpicker__controls__control-up', wait: 2).click
-      find(:css, 'div.wickedpicker > ul > li:nth-child(3) > span.wickedpicker__controls__control-up', wait: 2).click
-      find(:css, 'div.wickedpicker > ul > li:nth-child(4) > span.wickedpicker__controls__control-up', wait: 2).click
-    else
-      find(:xpath, "//input[@id='point_promotion_datetime_start_date_time']", wait: 2).click
-      find(:css, 'div.wickedpicker > ul > li:nth-child(1) > span.wickedpicker__controls__control-up', wait: 2).click
-      find(:css, 'div.wickedpicker > ul > li:nth-child(3) > span.wickedpicker__controls__control-up', wait: 2).click
-      find(:css, 'div.wickedpicker > ul > li:nth-child(4) > span.wickedpicker__controls__control-up', wait: 2).click
-    end
-    sleep 2
+    # if (availability==true)
+    #   print availability
+    #   sleep 2
+    #   find(:css, 'div.wickedpicker > ul > li:nth-child(1) > span.wickedpicker__controls__control-up', wait: 2).click
+    #   find(:css, 'div.wickedpicker > ul > li:nth-child(3) > span.wickedpicker__controls__control-up', wait: 2).click
+    #   find(:css, 'div.wickedpicker > ul > li:nth-child(4) > span.wickedpicker__controls__control-up', wait: 2).click
+    # else
+    #   find(:xpath, "//input[@id='point_promotion_datetime_start_date_time']", wait: 2).click
+    #   find(:css, 'div.wickedpicker > ul > li:nth-child(1) > span.wickedpicker__controls__control-up', wait: 2).click
+    #   find(:css, 'div.wickedpicker > ul > li:nth-child(3) > span.wickedpicker__controls__control-up', wait: 2).click
+    #   find(:css, 'div.wickedpicker > ul > li:nth-child(4) > span.wickedpicker__controls__control-up', wait: 2).click
+    # end
+    # sleep 2
 
     # puts time
     find(:xpath, "//input[@class='datepicker end_date end_date_date hasDatepicker']", wait: 2).click
@@ -85,8 +85,6 @@ module OffersPage
     status.click unless status.checked?
     click_link_or_button 'Save'
   end
-
-
 
   def update_promotion(name)
     find(:xpath, "//a[contains(text(), 'Manage Promotions')]", wait: 2).click
